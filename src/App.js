@@ -1,11 +1,20 @@
-import Post from './components/Post';
+import Posts from './components/Posts';
 import './App.css';
+import Container from '@mui/material/Container';
+import { Route, Routes } from "react-router-dom"
+import Post from './components/Post';
+
 
 function App() {
   return (
-    <div className="App">
-      <Post />
-    </div>
+    <Container>
+      <div className="App">
+      <Routes>
+        <Route path="/" element={<Posts />} />
+        <Route path="/post/:id" element={<Post />} />
+      </Routes>
+      </div>
+    </Container>
   );
 }
 
