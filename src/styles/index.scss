@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    padding: 20px;
+}
+
+.posts{
+    padding-top: 40px;
+}
+
+.postimg {
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+}

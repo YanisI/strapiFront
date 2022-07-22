@@ -1,5 +1,4 @@
 import Posts from './components/Posts';
-import './App.css';
 import Container from '@mui/material/Container';
 import { Route, Routes } from "react-router-dom"
 import Post from './components/Post';

@@ -29,7 +29,7 @@ const Posts = () => {
 
     return (
         <div className='posts'>
-            <Grid container spacing={3}>
+            <Grid container spacing={2}>
                 {isLoading ?
                     (
                         <Box >
